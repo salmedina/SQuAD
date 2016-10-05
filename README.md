@@ -10,6 +10,12 @@ In this repo you will find a simple tool which reformats the SQuAD dataset into 
 python SquadProcessing.py <squad_file> <save_file>
 ```
 
+An example of a call from the root folder would be:
+
+```
+python src/SquadProcessing.py data/dev-v1.0.json out/proc-dev-v1.0.json
+```
+
 ## Data Description
 
 ### Original format
